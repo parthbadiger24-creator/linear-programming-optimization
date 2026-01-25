@@ -1,0 +1,36 @@
+Microsoft Excel 16.0 Answer Report,,,,,,
+Worksheet: [Book1]Sheet1,,,,,,
+Report Created: 1/25/2026 8:07:37 PM,,,,,,
+Result: Solver found a solution.  All Constraints and optimality conditions are satisfied.,,,,,,
+Solver Engine,,,,,,
+,Engine: Simplex LP,,,,,
+,Solution Time: 0 Seconds.,,,,,
+,Iterations: 1 Subproblems: 0,,,,,
+Solver Options,,,,,,
+,"Max Time Unlimited,  Iterations Unlimited, Precision 0.000001",,,,,
+,"Max Subproblems Unlimited, Max Integer Sols Unlimited, Integer Tolerance 1%, Assume NonNegative",,,,,
+,,,,,,
+,,,,,,
+Objective Cell (Max),,,,,,
+,Cell,Name,Original Value,Final Value,,
+,$B$8,Maximize Z Area (sq meters),0,48000,,
+,,,,,,
+,,,,,,
+Variable Cells,,,,,,
+,Cell,Name,Original Value,Final Value,Integer,
+,$B$2,Leafy Greens (x1) Area (sq meters),0,0,Contin,
+,$B$3,Root Vegetables (x2) Area (sq meters),0,0,Contin,
+,$B$4,Fruiting Plants (x3) Area (sq meters),0,0,Contin,
+,$B$5,Herbs (x4) Area (sq meters),0,2400,Contin,
+,,,,,,
+,,,,,,
+Constraints,,,,,,
+,Cell,Name,Cell Value,Formula,Status,Slack
+,$B$11,Total Area Left Side,2400,$B$11<=$D$11,Not Binding,100
+,$B$12,Water Usage Left Side,6000,$B$12<=$D$12,Not Binding,2000
+,$B$13,Labor Hours Left Side,600,$B$13<=$D$13,Binding,0
+,$B$14,Max Fruiting Plants Left Side,0,$B$14<=$D$14,Not Binding,1000
+,$B$2,Leafy Greens (x1) Area (sq meters),0,$B$2>=0,Binding,0
+,$B$3,Root Vegetables (x2) Area (sq meters),0,$B$3>=0,Binding,0
+,$B$4,Fruiting Plants (x3) Area (sq meters),0,$B$4>=0,Binding,0
+,$B$5,Herbs (x4) Area (sq meters),2400,$B$5>=0,Not Binding,2400
