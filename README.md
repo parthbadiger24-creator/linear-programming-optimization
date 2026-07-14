@@ -2,7 +2,7 @@
 
 > LP model for **optimal crop allocation** using **Excel Solver**, maximising farm revenue subject to land, labour, water and demand constraints. Includes full sensitivity analysis with shadow-price interpretation.
 >
-> **BEMM462 — Operations Analytics, University of Exeter Business School**
+> ** Operations Analytics**
 
 ---
 
